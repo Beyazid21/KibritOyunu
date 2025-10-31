@@ -1,0 +1,47 @@
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(135, 222, 184);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    color: chocolate;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.match-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.match-row img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.match-row img:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.2);
+}
