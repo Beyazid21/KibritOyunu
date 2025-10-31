@@ -12,39 +12,52 @@
 </head>
 
 <body>
-    <div class="container text-center">
+    <div class="container game text-center">
         <h1 class="title mb-4">Kibrit Oyunu</h1>
+
+        <button onclick="btnContinue()" class="btn btn-warning rounded continue hideButton">Davam</button>
+        <h2 class="color-warning show-turn">Növbə:Player1</h2>
 
         <div class="rows">
             <div class="match-row">
-                <img src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)" src="img/Adobe Express - file.png" alt="">
             </div>
 
             <div class="match-row">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)" src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)" src="img/Adobe Express - file.png" alt="">
             </div>
 
             <div class="match-row">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
+                <img  onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)" src="img/Adobe Express - file.png" alt="">
             </div>
 
             <div class="match-row">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
-                <img src="img/Adobe Express - file.png" alt="">
+                <img  onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
+                <img onclick="takeMatchstick(this)"  src="img/Adobe Express - file.png" alt="">
             </div>
         </div>
     </div>
+
+    <div class="container result d-none text-center ">
+    <h1 class="title mb-4"></h1>
+
+    
+    </div>
+
+    <script src="js/players.js"></script>
+    <script src="js/contolGame.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
