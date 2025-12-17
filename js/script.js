@@ -108,9 +108,9 @@ console.log(allImgUnchanged.length);
         console.log("oyun bitdi");
          gameContainer.classList.add('d-none');  
 resultContainer.classList.remove('d-none');  
-const message = controlGame.getOtherPlayer() === 'Zeynal'
-    ? 'Zeynal qazandı'
-    : '!!!!!!!BƏYAZİT QAZANDI!!!!!!!!! ';
+const message = controlGame.getOtherPlayer() === 'Player-1'
+    ? 'Player-1 qazandı'
+    : 'Player-2 qazandı ';
     resulTitle.textContent = message;
 
   
